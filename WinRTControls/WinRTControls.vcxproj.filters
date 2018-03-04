@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Commun">
+      <UniqueIdentifier>f9516c43-83ce-4da5-a9a7-c3a509824578</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources">
+      <UniqueIdentifier>d9fd92f0-5826-44d5-a667-df77ec97e8d5</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Image Include="Assets\Logo.scale-100.png">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-100.png">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Filter Include="Common">
+      <UniqueIdentifier>{d966d0ec-c336-416d-80ff-4f08312fe7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repository">
+      <UniqueIdentifier>{c274f104-ed85-4bf9-b7ad-9a50d4da049e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{b8e7e365-6eb2-4013-9ce8-9b1cc45f6a15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Common\NavigationHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\RelayCommand.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SuspensionManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AppBarPage.xaml.cpp" />
+    <ClCompile Include="CommandBarPage.xaml.cpp" />
+    <ClCompile Include="DateTimePickerPage.xaml.cpp" />
+    <ClCompile Include="ListViewPage.xaml.cpp" />
+    <ClCompile Include="ProgressRingPage.xaml.cpp" />
+    <ClCompile Include="ToggleButtonSwitchPage.xaml.cpp" />
+    <ClCompile Include="ImageData.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagesRepository.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="Common\NavigationHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RelayCommand.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SuspensionManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBarPage.xaml.h" />
+    <ClInclude Include="CommandBarPage.xaml.h" />
+    <ClInclude Include="DateTimePickerPage.xaml.h" />
+    <ClInclude Include="ListViewPage.xaml.h" />
+    <ClInclude Include="ProgressRingPage.xaml.h" />
+    <ClInclude Include="ToggleButtonSwitchPage.xaml.h" />
+    <ClInclude Include="ImageData.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagesRepository.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WinRTControls_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+    <Page Include="ProgressRingPage.xaml" />
+    <Page Include="ToggleButtonSwitchPage.xaml" />
+    <Page Include="DateTimePickerPage.xaml" />
+    <Page Include="AppBarPage.xaml" />
+    <Page Include="CommandBarPage.xaml" />
+    <Page Include="ListViewPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\im_1.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_2.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_3.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_4.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_5.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_6.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_7.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_8.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_9.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_10.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_11.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_12.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_13.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_14.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_15.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_16.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_17.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_18.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_19.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_20.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_21.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_22.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_23.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_24.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_25.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_26.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="Assets\im_27.jpg">
+      <Filter>Ressources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
